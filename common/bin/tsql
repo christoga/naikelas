@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. /Applications/moodle/scripts/setenv.sh
+
+exec /Applications/moodle/common/bin/.tsql.bin  "$@"

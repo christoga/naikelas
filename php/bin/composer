@@ -1,0 +1,4 @@
+#!/bin/sh
+. /Applications/moodle/php/../scripts/setenv.sh
+
+exec /Applications/moodle/php/bin/composer.phar "$@"

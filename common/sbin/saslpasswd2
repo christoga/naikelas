@@ -1,0 +1,6 @@
+#!/bin/sh
+
+. /Applications/moodle/scripts/setenv.sh
+SASL_PATH="/Applications/moodle/common/lib/sasl2"
+                export SASL_PATH
+exec /Applications/moodle/common/sbin/.saslpasswd2.bin -f "/Applications/moodle/common/etc/sasldb2" "$@"

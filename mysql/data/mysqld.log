@@ -1,0 +1,25 @@
+151219 21:47:03 mysqld_safe Starting mysqld.bin daemon with databases from /Applications/moodle/mysql/data
+2015-12-19 21:47:04 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2015-12-19 21:47:04 0 [Note] /Applications/moodle/mysql/bin/mysqld.bin (mysqld 5.6.26) starting as process 6439 ...
+2015-12-19 21:47:04 6439 [Note] Plugin 'FEDERATED' is disabled.
+2015-12-19 21:47:04 6439 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2015-12-19 21:47:04 6439 [Note] InnoDB: The InnoDB memory heap is disabled
+2015-12-19 21:47:04 6439 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2015-12-19 21:47:04 6439 [Note] InnoDB: Memory barrier is not used
+2015-12-19 21:47:04 6439 [Note] InnoDB: Compressed tables use zlib 1.2.6
+2015-12-19 21:47:04 6439 [Note] InnoDB: Using CPU crc32 instructions
+2015-12-19 21:47:04 6439 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2015-12-19 21:47:04 6439 [Note] InnoDB: Completed initialization of buffer pool
+2015-12-19 21:47:04 6439 [Note] InnoDB: Highest supported file format is Barracuda.
+2015-12-19 21:47:04 6439 [Note] InnoDB: 128 rollback segment(s) are active.
+2015-12-19 21:47:04 6439 [Note] InnoDB: Waiting for purge to start
+2015-12-19 21:47:05 6439 [Note] InnoDB: 5.6.26 started; log sequence number 1625987
+2015-12-19 21:47:05 6439 [Warning] No existing UUID has been found, so we assume that this is the first time that this server has been started. Generating a new UUID: 5efd54f8-a65f-11e5-8a6a-40086afbae75.
+2015-12-19 21:47:05 6439 [Note] RSA private key file not found: /Applications/moodle/mysql/data//private_key.pem. Some authentication plugins will not work.
+2015-12-19 21:47:05 6439 [Note] RSA public key file not found: /Applications/moodle/mysql/data//public_key.pem. Some authentication plugins will not work.
+2015-12-19 21:47:05 6439 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2015-12-19 21:47:05 6439 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2015-12-19 21:47:05 6439 [Note] Server socket created on IP: '127.0.0.1'.
+2015-12-19 21:47:05 6439 [Note] Event Scheduler: Loaded 0 events
+2015-12-19 21:47:05 6439 [Note] /Applications/moodle/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.6.26'  socket: '/Applications/moodle/mysql/tmp/mysql.sock'  port: 3306  Source distribution

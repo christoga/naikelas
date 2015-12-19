@@ -1,0 +1,8 @@
+#!/bin/sh
+
+PATH="/Applications/moodle/sqlite/bin:/Applications/moodle/php/bin:/Applications/moodle/mysql/bin:/Applications/moodle/apache2/bin:/Applications/moodle/common/bin:$PATH"
+BITNAMI_ROOT="/Applications/moodle"
+export BITNAMI_ROOT
+
+exec /bin/bash --noprofile --norc
+                    

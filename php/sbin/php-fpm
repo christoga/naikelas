@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. /Applications/moodle/scripts/setenv.sh
+
+exec /Applications/moodle/php/sbin/.php-fpm.bin -y /Applications/moodle/php/etc/php-fpm.conf -p /Applications/moodle/php/var/ -c /Applications/moodle/php/etc/php.ini "$@"
